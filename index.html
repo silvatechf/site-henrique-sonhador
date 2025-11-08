@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João do Batuque</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+  <script defer src="script.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">João do Batuque</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#bio">Sobre</a></li>
+      <li><a href="#instrumentos">Instrumentos</a></li>
+      <li><a href="#agenda">Agenda</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <img src="assets/joao.jpg" alt="João do Batuque" class="perfil" />
+    <h1>Henrique Sonhador</h1>
+    <p>Percussionista brasileiro de samba, direto de Barcelona</p>
+    <audio id="player" src="assets/samba.mp3" controls></audio>
+  </header>
+
+  <section id="bio" class="bio">
+    <h2>Sobre Henrique Sonhador</h2>
+    <p>Henrique é um músico apaixonado pelo samba, nascido no Brasil e radicado em Barcelona. Com seu pandeiro e sorriso contagiante, ele é presença garantida nos eventos da comunidade do samba europeia.</p>
+  </section>
+
+  <section id="instrumentos" class="instrumentos">
+    <h2>Instrumentos do Batuque do Sonhador</h2>
+
+    <div class="instrumento-card">
+      <img src="assets/pandeiro.jpg" alt="Pandeiro" />
+      <div>
+        <h3>Pandeiro</h3>
+        <p>O pandeiro é um dos instrumentos mais emblemáticos do samba. Henrique domina técnicas modernas e tradicionais com esse instrumento.</p>
+      </div>
+    </div>
+
+    <div class="instrumento-card">
+      <img src="assets/surdo.jpg" alt="Surdo" />
+      <div>
+        <h3>Surdo</h3>
+        <p>O surdo é o coração do samba. Com seu som grave e pulsante, Henrique Sonhador cria atmosferas envolventes e marcantes.</p>
+      </div>
+    </div>
+
+    <div class="instrumento-card">
+      <img src="assets/tamborim.jpg" alt="Tamborim" />
+      <div>
+        <h3>Tamborim</h3>
+        <p>Pequeno, mas poderoso. Sonhador usa o tamborim para criar variações rítmicas rápidas e alegres.</p>
+      </div>
+    </div>
+
+    <div class="instrumento-card">
+      <img src="assets/agogo.jpg" alt="Agogô" />
+      <div>
+        <h3>Agogô</h3>
+        <p>Com dois sinos metálicos, o agogô traz uma sonoridade afro-brasileira que Henrique usa com maestria.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="agenda" class="agenda">
+    <h2>Agenda</h2>
+    <ul>
+      <li><strong>10 Nov:</strong> Roda de Samba no La Carioca</li>
+      <li><strong>15 Nov:</strong> Workshop de Percussão Brasileira</li>
+      <li><strong>20 Nov:</strong> Show no Festival Latino</li>
+    </ul>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2>Galeria</h2>
+    <div class="fotos">
+      <img src="assets/galeria1.jpg" alt="Henrique tocando pandeiro" />
+      <img src="assets/galeria2.jpg" alt="Roda de samba em Barcelona" />
+      <img src="assets/galeria3.jpg" alt="Workshop de percussão" />
+    </div>
+  </section>
+
+  <section class="depoimentos">
+    <h2>Depoimentos</h2>
+    <blockquote>“Henrique é o coração da nossa roda de samba em Barcelona!” — Maria do Cavaco</blockquote>
+    <blockquote>“O batuque dele é pura alegria. Um mestre do ritmo!” — Pedro do Surdo</blockquote>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p>Para shows, workshops ou colaborações: <a href="mailto:henriquesonhador@samba.com">henriquesonhador@samba.com</a></p>
+    <div class="social">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-spotify"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Henrique Sonhador. Feito com amor e samba.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
